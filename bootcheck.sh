@@ -5,6 +5,7 @@
 #script to boot only if your machine address matches with the given mac address
 #no machine other then your machine will be able to complete the os boot
 #replace xx:xx:xx:xx:xx with machine's address make sure cat /sys/class/net/wlan0/address gives the same output
+#carefully checkif the interface name wlan0 exists, if not then replace with the available name.
 #finally add the script to crontab 
  if [ "xx:xx:xx:xx:xx" -ne  $(cat /sys/class/net/wlan0/address) ]
  then
