@@ -23,4 +23,4 @@ satellite database api with country, type, status, aim etc.
 
 ## sysinfo_json.sh
 update system info to json file using this script in ubuntu
-I ran it in apache sever and updated system info on my mobile phone using local networksatellite database api with country, type, status, aim etc.
+I ran it in apache sever and updated system info on my mobile phone using local network.
